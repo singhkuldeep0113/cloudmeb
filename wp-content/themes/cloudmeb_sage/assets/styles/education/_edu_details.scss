@@ -1,0 +1,862 @@
+.education_detail_menu {
+
+}
+
+.education_detail_menu .container {
+  max-width: 1700px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+  position: relative;
+}
+
+.education_detail_menu__lgtitle {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5e7599;
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  left: 0;
+
+  a {
+    text-decoration: none !important;
+    color: #5e7599 !important;
+  }
+}
+
+.edu_detail_back {
+  margin-bottom: 8px;
+  margin-right: 10px;
+  text-decoration: none !important;
+}
+
+.education_content {
+
+}
+
+.education_content .container {
+  max-width: 1580px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content__lgtitle {
+  font-family: Circe-Bold;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #181e26;
+
+  margin-top: 60px;
+}
+
+.content__author {
+  font-family: Circe-Regular;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgba(26, 37, 21, 0.4);
+
+  padding-top: 20px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.content__author > span {
+  color: #1a2515;
+}
+
+.content__img {
+  max-width: 680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content__header {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: rgba(24, 30, 38, 0.8);
+  text-align: left;
+
+  padding-top: 70px;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content__mdtitle {
+  font-family: Circe-Regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: rgba(24, 30, 38, 0.8);
+  text-align: left;
+
+  padding-top: 50px;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+
+  > h3, h2, h1, h4 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Circe-Bold;
+    margin-top: 30px;
+  }
+}
+
+.content__maintitle {
+  font-family: Circe-Regular;
+  font-size: 54px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: 1px;
+  color: #8d9bb0;
+  text-align: left;
+
+  padding-top: 50px;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.temp {
+  height: 200px;
+}
+
+.education_nav .navigate_item_image {
+  background-color: #eeffe8 !important;
+}
+
+.education_nav .detail_title {
+  color: #171d26 !important;
+}
+
+.education_nav .label {
+  color: #a8aca7 !important;
+}
+
+.education_nav .label span {
+  color: #202a1c !important;
+}
+
+/**
+    Education Legal Services
+ */
+.education_services {
+  margin-top: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 35px;
+}
+
+.education_services .container {
+  max-width: 1580px;
+  border-radius: 20px;
+  box-shadow: 0 0 32px 0 rgba(24, 30, 38, 0.04);
+  background-color: #ffffff;
+
+  padding: 40px 60px;
+}
+
+.education_services__lgtitle {
+  font-family: Circe-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5e7599;
+}
+
+.education_services__mdtitle {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5e7599;
+
+  padding-top: 20px;
+}
+
+.education_services__btn {
+  max-width: 460px;
+  width: 100%;
+  height: 92px;
+  border-radius: 20px;
+  background-color: #7632d2;
+
+  font-family: Circe-Bold;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.education_services__credit {
+  font-family: Circe-Regular;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8d9bb0;
+
+  margin-top: 26px;
+}
+
+.education_services__btn_wrapper {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content__hd_center {
+  border-radius: 10px;
+  background-color: rgba(234, 249, 250, 0.3);
+  padding: 30px 40px;
+  margin-top: 70px;
+
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: rgba(65, 92, 133, 0.8);
+}
+
+.content__maintitle.small {
+  font-size: 36px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(65, 92, 133, 0.8);
+  max-width: 1090px;
+}
+
+.content__list {
+  /*list-style: none;*/
+}
+
+.content__list li {
+  font-family: Circe-Regular;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: rgba(24, 30, 38, 0.8);
+
+  padding-top: 20px;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.content__course-img {
+  max-width: 1024px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.content__addi-resource {
+  margin-top: 20px;
+}
+
+.content__addi-resource li {
+  font-family: Circe-Regular;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: rgba(65, 92, 133, 0.8);
+
+  padding-top: 20px;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  /*text-decoration: underline;*/
+}
+
+@media (max-width: 992px) {
+  .education_detail_menu .container {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .education_detail_menu .container .tag_item {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+
+  .education_detail_menu__lgtitle {
+    left: 32px;
+    font-size: 32px;
+  }
+
+  .education_content .container{
+    padding: 0;
+  }
+
+  .content__lgtitle {
+    font-size: 64px;
+    line-height: 1.3;
+  }
+
+  .content__author {
+    font-size: 28px;
+    word-spacing: 6px;
+    padding-top: 42px;
+    padding-bottom: 53px;
+  }
+
+  .content__img {
+    height: 460px;
+  }
+
+  .content__header {
+    padding: 50px 33px 0;
+  }
+
+  .content__mdtitle {
+    padding: 15px 33px 0;
+    line-height: 1.7;
+    font-size: 28px;
+
+    > h3, h2, h1, h4 {
+      font-size: 38px;
+      font-weight: bold;
+      font-family: Circe-Bold;
+    }
+  }
+
+  .content__maintitle {
+    padding: 35px 33px 0px;
+    font-size: 45px;
+  }
+
+  .education_services .container {
+    padding: 30px;
+  }
+
+  .education_services {
+    margin-bottom: 25px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 32px;
+  }
+
+  .education_services__mdtitle {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-right: 40px;
+  }
+
+  .education_services__btn_wrapper {
+    justify-content: center;
+  }
+
+  .education_services__btn {
+    height: 71px;
+    border: 0;
+    border-radius: 12px;
+  }
+
+  .education_services__credit {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .content__list {
+    padding-left: 50px;
+  }
+
+  .content__addi-resource {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .content__lgtitle {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .education_detail_menu .container {
+    margin-top: 32px;
+    padding: 0 10px;
+  }
+
+  .content__lgtitle {
+    font-size: 44px;
+    margin-top: 27px;
+    padding: 0 55px;
+  }
+
+  .content__author {
+    padding-top: 30px;
+  }
+
+  .content__img {
+    height: 340px;
+  }
+
+  .content__header {
+    font-size: 28px;
+    line-height: 1.73;
+  }
+
+  .content__mdtitle {
+    padding: 3px 33px 0;
+    font-size: 20px;
+
+    > h3, h2, h1, h4 {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Circe-Bold;
+    }
+  }
+
+  .content__maintitle {
+    padding: 32px 33px 0px;
+    font-size: 42px;
+  }
+
+  .education_services {
+    margin-top: 30px;
+    margin-bottom: 105px;
+  }
+
+  .education_services__lgtitle {
+    text-align: center;
+  }
+
+  .education_services__mdtitle {
+    text-align: center;
+    padding: 21px 0 0;
+    margin-bottom: -15px;
+  }
+
+  .education_services__btn {
+    width: 320px;
+  }
+
+  .education_services__btn_wrapper {
+    height: unset;
+    margin-top: 50px;
+  }
+
+  .content__hd_center {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .content__lgtitle {
+    font-size: 42px;
+    padding: 0 30px;
+  }
+
+  .content__author {
+    font-size: 26px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .education_detail_menu__lgtitle {
+    left: 20px;
+    font-size: 30px;
+  }
+
+  .content__img {
+    height: 310px;
+  }
+
+  .content__header {
+    font-size: 27px;
+  }
+
+  .content__maintitle {
+    font-size: 40px !important;
+  }
+
+  .education_services__lgtitle {
+    font-size: 30px;
+  }
+
+  .education_services__btn {
+    font-size: 26px;
+    height: unset;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+
+  .education_detail_menu .container .tag_item {
+    font-size: 20px;
+  }
+
+  .content__hd_center {
+    font-size: 34px;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 28px;
+  }
+
+  .education_detail_menu {
+    .tag_item {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .education_detail_menu .container {
+    margin-top: 15px;
+  }
+
+  .content__lgtitle {
+    font-size: 37px;
+  }
+
+  .content__author {
+    font-size: 24px;
+  }
+
+  .edu_detail_back {
+    width: 16px;
+    margin-right: 5px;
+  }
+
+  .education_detail_menu__lgtitle {
+    left: 15px;
+    font-size: 28px;
+  }
+
+  .content__img {
+    height: 280px;
+  }
+
+  .content__header {
+    font-size: 26px;
+    padding: 30px 20px 0;
+  }
+
+  .content__maintitle {
+    font-size: 34px !important;
+    padding: 0 20px;
+    margin-bottom: 0;
+  }
+
+  .content__mdtitle {
+    padding: 0 20px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 28px;
+  }
+
+  .education_services .container {
+    padding: 30px 15px;
+  }
+
+  .education_services__btn_wrapper {
+    margin-top: 30px;
+  }
+
+  .education_services__btn {
+    font-size: 24px;
+    padding: 5px 0;
+  }
+
+  .education_services {
+    margin-bottom: 80px;
+  }
+
+  .education_detail_menu .container .tag_item {
+    font-size: 19px;
+    padding: 5px;
+    margin: 0 0 0 10px;
+  }
+
+  .content__hd_center {
+    font-size: 32px;
+    padding: 20px 15px;
+    margin-bottom: 0;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 26px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content__lgtitle {
+    font-size: 34px;
+    padding: 0 15px;
+  }
+
+  .content__author {
+    font-size: 22px;
+  }
+
+  .content__img {
+    height: 250px;
+  }
+
+  .content__header {
+    font-size: 25px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 26px;
+  }
+
+  .education_services__mdtitle {
+    padding-top: 0;
+  }
+
+  .education_services__btn {
+    font-size: 22px;
+  }
+
+  .education_detail_menu__lgtitle {
+    font-size: 26px;
+  }
+
+  .edu_detail_back {
+    width: 14px;
+    margin-right: 3px;
+  }
+
+  .education_detail_menu .container .tag_item {
+    font-size: 17px;
+  }
+
+  .content__hd_center {
+    font-size: 29px;
+  }
+
+  .content__maintitle {
+    font-size: 29px !important;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 420px) {
+  .content__lgtitle {
+    font-size: 31px;
+    padding: 0 5px;
+  }
+
+  .education_services__btn {
+    width: 100%;
+  }
+
+  .content__author {
+    font-size: 20px;
+  }
+
+  .content__img {
+    height: 220px;
+  }
+
+  .content__header {
+    font-size: 24px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 24px;
+  }
+
+  .education_services__btn {
+    font-size: 21px;
+  }
+
+  .education_services {
+    margin-bottom: 70px;
+  }
+
+  .education_detail_menu__lgtitle {
+    font-size: 24px;
+  }
+
+  .edu_detail_back {
+    width: 12px;
+    margin-right: 1px;
+    margin-bottom: 6px;
+  }
+
+  .education_detail_menu .container .tag_item {
+    font-size: 16px;
+  }
+
+  .content__hd_center {
+    font-size: 26px;
+  }
+
+  .content__maintitle {
+    font-size: 26px !important;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 370px) {
+  .content__lgtitle {
+    font-size: 27px;
+  }
+
+  .content__author {
+    font-size: 18px;
+  }
+
+  .content__img {
+    height: 190px;
+  }
+
+  .content__header {
+    font-size: 23px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 22px;
+  }
+
+  .education_services__btn {
+    font-size: 20px;
+  }
+
+  .education_detail_menu__lgtitle {
+    font-size: 22px;
+  }
+
+  .edu_detail_back {
+    width: 10px;
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+
+  .education_detail_menu .container .tag_item {
+    font-size: 15px;
+  }
+
+  .content__hd_center {
+    font-size: 23px;
+  }
+
+  .content__maintitle {
+    font-size: 23px !important;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__lgtitle {
+    font-size: 25px;
+  }
+
+  .content__author {
+    font-size: 16px;
+  }
+
+  .content__img {
+    height: 160px;
+  }
+
+  .content__header {
+    font-size: 21px;
+  }
+
+  .education_services__lgtitle {
+    font-size: 20px;
+  }
+
+  .education_services__btn {
+    font-size: 18px;
+  }
+
+  .education_detail_menu__lgtitle {
+    font-size: 20px;
+  }
+
+  .content__hd_center {
+    font-size: 21px;
+  }
+
+  .content__maintitle {
+    font-size: 21px !important;
+  }
+
+  .content__list li, .content__addi-resource li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 280px) {
+  .education_detail_menu .container .tag_item {
+    font-size: 15px;
+  }
+}

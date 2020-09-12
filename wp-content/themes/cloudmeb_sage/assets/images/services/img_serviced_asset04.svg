@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-D-XL-2.-—-Product" transform="translate(-100.000000, -831.000000)">
+            <g id="Text" transform="translate(100.000000, 535.000000)">
+                <g id="2" transform="translate(0.000000, 296.000000)">
+                    <g id="Icon">
+                        <rect id="Background" fill="#3D5135" x="0" y="0" width="64" height="64" rx="10"></rect>
+                        <g transform="translate(32.000000, 32.000000) scale(-1, 1) translate(-32.000000, -32.000000) translate(9.000000, 17.000000)" id="Combined-Shape" stroke="#E6EEDC" stroke-width="4">
+                            <path d="M44,22.5 L44,24 C44,25.1045695 43.5522847,26.1045695 42.8284271,26.8284271 C42.1045695,27.5522847 41.1045695,28 40,28 L37,28 L44,28 L44,22.5 Z M2,22.5 L2,28 L9,28 L6,28 C4.8954305,28 3.8954305,27.5522847 3.17157288,26.8284271 C2.44771525,26.1045695 2,25.1045695 2,24 L2,22.5 Z M37,2 L40,2 C41.1045695,2 42.1045695,2.44771525 42.8284271,3.17157288 C43.5522847,3.8954305 44,4.8954305 44,6 L44,7.5 L44,2 L37,2 Z M9,2 L2,2 L2,7.5 L2,6 C2,4.8954305 2.44771525,3.8954305 3.17157288,3.17157288 C3.8954305,2.44771525 4.8954305,2 6,2 L9,2 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

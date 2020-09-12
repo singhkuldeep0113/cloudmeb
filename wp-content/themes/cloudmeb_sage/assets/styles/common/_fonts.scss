@@ -1,0 +1,56 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3887031, 2020-04-03T17:31:45-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Circe-Regular by ParaType
+ * URL: https://www.myfonts.com/fonts/paratype/circe/regular/
+ *
+ * Webfont: Circe-Bold by ParaType
+ * URL: https://www.myfonts.com/fonts/paratype/circe/bold/
+ *
+ * Webfont: Circe-ExtraBold by ParaType
+ * URL: https://www.myfonts.com/fonts/paratype/circe/extra-bold/
+ *
+ *
+ * Webfonts copyright: Copyright &amp;#x00A9; 2011 ParaType Inc., ParaType Ltd. All rights reserved.
+ *
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b4fb7");
+
+@font-face {
+  src: url('../../fonts/Circe-Bold/Circe-Bold_font.eot');
+  font-family: 'Circe-Bold';
+  src: url('../../fonts/Circe-Bold/font.woff2') format('woff2'), url('../../fonts/Circe-Bold/font.woff') format('woff'), url('../../fonts/Circe-Bold/Circe-Bold_font.eot?#iefix') format('embedded-opentype'), url('../../fonts/Circe-Bold/font.ttf') format('truetype');
+}
+@font-face {
+  src: url('../../fonts/Circe-Regular/font.eot');
+  font-family: 'Circe-Regular';
+  src: url('../../fonts/Circe-Regular/font.woff2') format('woff2'), url('../../fonts/Circe-Regular/font.woff') format('woff'), url('../../fonts/Circe-Regular/font.eot?#iefix') format('embedded-opentype'), url('../../fonts/Circe-Regular/font.ttf') format('truetype');
+}
+@font-face {
+  src: url('../../fonts/Circe-ExtraBold/font.eot');
+  font-family: 'Circe-ExtraBold';
+  src: url('../../fonts/Circe-ExtraBold/font.woff2') format('woff2'), url('../../fonts/Circe-ExtraBold/font.woff') format('woff'), url('../../fonts/Circe-ExtraBold/font.eot?#iefix') format('embedded-opentype'), url('../../fonts/Circe-ExtraBold/font.ttf') format('truetype');
+}
+
+.Circe-Regular {
+  font-family: Circe-Regular;
+}
+
+.Circe-Bold {
+  font-family: Circe-Bold;
+}
+
+.Circe-ExtraBold {
+  font-family: Circe-ExtraBold;
+}

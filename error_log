@@ -1,0 +1,1 @@
+[05-Sep-2020 09:49:06 UTC] PHP Warning:  mysqli_query(): (HY000/2013): Lost connection to MySQL server during query in /home/fkh7i2ipr1ho/public_html/cloudmeb/wp-includes/wp-db.php on line 2033

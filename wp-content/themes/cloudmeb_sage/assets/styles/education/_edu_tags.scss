@@ -1,0 +1,164 @@
+.tag_item {
+  padding: 7px 10px;
+  border-radius: 6px;
+
+  font-family: Circe-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  margin-right: 15px;
+}
+
+.tag_item.startup {
+  color: #996999;
+  background-color: #fbebfb;
+}
+
+.tag_item.legal {
+  color: #659ea9;
+  background-color: #e5f5f9;
+}
+
+.tag_item.accounting {
+  color: #ac8577;
+  background-color: #f8f4f2;
+}
+
+.tag_item.bookkeeping {
+  color: #7fa47b;
+  background-color: #f6fff5;
+}
+
+.tag_item {
+  &.brown {
+    color: #ac8577;
+  }
+  &.green {
+    color: #7fa47b;
+  }
+  &.blue {
+    color: #659ea9;
+  }
+  &.pink {
+    color: #996999;
+  }
+  &.yarn {
+    color: #8d6dc7;
+  }
+
+  &.e-commerce {
+    color: #659ea9;
+    background-color: #e5f5f9;
+  }
+
+  &.pos {
+    color: #7fa47b;
+    background-color: #f6fff5;
+  }
+
+  &.accounting {
+    color: #8d6dc7;
+    background-color: #ede2ff;
+  }
+
+  &.expenses {
+    color: #996999;
+    background-color: #fbebfb;
+  }
+
+  &.payroll {
+    color: #ac8577;
+    background-color: #f8f4f2;
+  }
+
+  &.reporting {
+    color: #b0aa56;
+    background-color: #f6f4da;
+  }
+
+  &.approval {
+    color: #5b9677;
+    background-color: #dfede6;
+  }
+
+  &.online_communication {
+    color: #d19589;
+    background-color: #f7eeec;
+  }
+}
+
+.timeframe {
+  font-family: Circe-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: right;
+  color: rgba(33, 42, 29, 0.4);
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.timeframe > span {
+  color: #212a1d;
+}
+
+.download {
+  width: 126px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #fafafa;
+
+  font-family: Circe-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #181e26;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding-top: 3px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #181e26;
+    color: #eaf9fa;
+  }
+}
+
+@media (max-width: 992px) {
+  .tag_item {
+    font-size: 22px;
+    padding: 9px 16px;
+  }
+
+  .timeframe {
+    font-size: 21px;
+  }
+
+  .timeframe > span {
+    margin-right: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeframe > span {
+    margin: 0;
+  }
+}

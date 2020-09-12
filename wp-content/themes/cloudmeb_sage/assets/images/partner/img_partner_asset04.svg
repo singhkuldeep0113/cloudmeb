@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners-D-XL" transform="translate(-100.000000, -1672.000000)">
+            <g id="Offer" transform="translate(100.000000, 1462.000000)">
+                <g id="1" transform="translate(0.000000, 210.000000)">
+                    <g id="Icon">
+                        <rect id="Background" fill="#EAF9FA" opacity="0.400000006" x="0" y="0" width="64" height="64" rx="10"></rect>
+                        <path d="M32,11 C43.5979797,11 53,20.4020203 53,32 C53,43.5979797 43.5979797,53 32,53 C20.4020203,53 11,43.5979797 11,32 C11,20.4020203 20.4020203,11 32,11 Z M32,15 C22.6111593,15 15,22.6111593 15,32 C15,41.3888407 22.6111593,49 32,49 C41.3888407,49 49,41.3888407 49,32 C49,22.6111593 41.3888407,15 32,15 Z" id="Combined-Shape" fill="#415C85"></path>
+                        <path d="M32,24 C33.1045695,24 34,24.8954305 34,26 L34,30 L38,30 C39.1045695,30 40,30.8954305 40,32 C40,33.1045695 39.1045695,34 38,34 L34,34 L34,38 C34,39.1045695 33.1045695,40 32,40 C30.8954305,40 30,39.1045695 30,38 L30,34 L26,34 C24.8954305,34 24,33.1045695 24,32 C24,30.8954305 24.8954305,30 26,30 L30,30 L30,26 C30,24.8954305 30.8954305,24 32,24 Z" id="Combined-Shape" fill="#415C85" opacity="0.400000006"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

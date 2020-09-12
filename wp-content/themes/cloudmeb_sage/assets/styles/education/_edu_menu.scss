@@ -1,0 +1,258 @@
+.education_menu {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.education_menu .container {
+  max-width: 1740px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.education_menu__lgtitle {
+  font-family: Circe-Regular;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #415c85;
+}
+
+.education_menu__mdtitle {
+  font-family: Circe-Regular;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  cursor: pointer;
+  display: block;
+}
+
+.education_menu__mdtitle.brown {
+  color: #ac8577;
+}
+
+.education_menu_list {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+  @media (min-width: 992px) {
+    > .education_menu__mdtitle {
+      margin-left: 50px;
+    }
+  }
+  @media (max-width: 992px) {
+    justify-content: space-around;
+  }
+}
+
+.education_menu__mdtitle.green {
+  color: #7fa47b;
+}
+
+.education_menu__mdtitle.blue {
+  color: #659ea9;
+}
+
+.education_menu__mdtitle.pink {
+  color: #996999;
+}
+
+.education_menu__mdtitle.yarn {
+  color: #8d6dc7;
+}
+
+.education_menu__search {
+  min-width: 300px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: rgba(141, 155, 176, 0.05);
+  margin-left: auto;
+  border: 0;
+  padding-left: 20px;
+  outline: none;
+  align-self: flex-end;
+}
+
+@media (max-width: 1440px) and (min-width: 992px) {
+  .education_menu .container {
+    flex-direction: column;
+  }
+
+  .education_menu .menu {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .education_menu__search {
+    min-width: 230px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .education_menu {
+    margin-top: 45px;
+    padding: 0;
+  }
+  .education_menu .container {
+    flex-direction: column;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 72px;
+  }
+
+  .education_menu__search {
+    display: none;
+  }
+
+  .education_menu .menu {
+    margin-top: 34px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .education_menu__mdtitle {
+    font-size: 36px;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  .education_menu__mdtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .education_menu {
+    margin-bottom: 52px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 63px;
+  }
+
+  .education_menu__mdtitle {
+    font-size: 36px;
+  }
+
+  .education_menu__mdtitle.last {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .education_menu__mdtitle {
+    font-size: 31px;
+  }
+
+  .education_menu .menu {
+    margin-top: 25px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 58px;
+  }
+
+  .education_menu {
+    margin: 40px 0 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .education_menu__mdtitle {
+    font-size: 26px;
+  }
+
+  .education_menu .menu {
+    margin-top: 20px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 54px;
+  }
+
+  .education_menu {
+    margin: 35px 0 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .education_menu__mdtitle {
+    font-size: 22px;
+  }
+
+  .education_menu .menu {
+    margin-top: 15px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 50px;
+  }
+
+  .education_menu {
+    margin: 30px 0 35px;
+  }
+}
+
+@media (max-width: 420px) {
+  .education_menu__mdtitle {
+    font-size: 18px;
+  }
+
+  .education_menu .menu {
+    margin-top: 10px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 46px;
+  }
+
+  .education_menu {
+    margin: 25px 0 30px;
+  }
+}
+
+@media (max-width: 370px) {
+  .education_menu__mdtitle {
+    font-size: 14px;
+  }
+
+  .education_menu .menu {
+    margin-top: 5px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 42px;
+  }
+
+  .education_menu {
+    margin: 20px 0 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .education_menu .menu {
+    margin-top: 0px;
+  }
+
+  .education_menu__lgtitle {
+    font-size: 38px;
+  }
+
+  .education_menu {
+    margin: 15px 0 20px;
+  }
+}

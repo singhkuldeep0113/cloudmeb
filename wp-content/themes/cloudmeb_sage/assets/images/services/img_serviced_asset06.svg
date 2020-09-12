@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-D-XL-2.-—-Product" transform="translate(-100.000000, -1715.000000)">
+            <g id="Text" transform="translate(100.000000, 535.000000)">
+                <g id="4" transform="translate(0.000000, 1180.000000)">
+                    <g id="Icon">
+                        <rect id="Background" fill="#3D5135" x="0" y="0" width="64" height="64" rx="10"></rect>
+                        <g transform="translate(11.000000, 11.000000)">
+                            <rect id="Rectangle" stroke="#E6EEDC" stroke-width="4" opacity="0.400000006" x="2" y="2" width="38" height="38" rx="19"></rect>
+                            <text id="$" font-family=".SFNSDisplay, .SF NS Display" font-size="26" font-weight="normal" fill="#E6EEDC">
+                                <tspan x="13" y="28">$</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

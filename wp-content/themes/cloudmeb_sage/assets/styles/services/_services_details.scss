@@ -1,0 +1,710 @@
+.service_detail_menu .container {
+  max-width: 1700px;
+
+  margin-top: 42px;
+  position: relative;
+}
+
+.service_detail_menu__lgtitle {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #3d5135;
+
+  a {
+    color: #3d5135 !important;
+    text-decoration: none !important;
+  }
+}
+
+.prod_detail_back {
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+/**
+    service Details Header
+ */
+.service_details__header {
+  border-bottom: 1px solid rgba(141, 155, 176, 0.5);
+}
+
+.service_details__header .container {
+  max-width: 1740px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.service_details__header-lgtitle {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+  > img {
+    width: 100px;
+  }
+}
+
+.service_details__header-lgtitle .title {
+  font-family: Circe-Bold;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #181e26;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.service_detail_menu__mdtitle {
+  font-family: Circe-Regular;
+  font-size: 54px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: 1px;
+  color: #6e8963;
+
+  padding-top: 20px;
+}
+
+.service_detail_menu__smtitle {
+  font-family: Circe-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #3d5135;
+
+  padding-top: 20px;
+  padding-bottom: 43px;
+}
+
+.service_detail_img {
+  max-width: 281px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/**
+    service details content
+ */
+.service_details__content {
+  padding: 0 0 70px;
+}
+
+.service_details__content .container {
+  max-width: 1740px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.service_detail-signup {
+  max-width: 540px;
+  width: 100%;
+  min-height: 624px;
+  border-radius: 20px;
+  box-shadow: 0 0 32px 0 rgba(24, 30, 38, 0.04);
+  background-color: #ffffff;
+
+  padding: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.service_detail-signup > img {
+  max-width: 186px;
+  width: 100%;
+  margin-top: 46px;
+}
+
+.service_detail-signup > .label {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5e7599;
+
+  margin-top: 74px;
+}
+
+.service_detail-signup > .btn_signup {
+  max-width: 460px;
+  width: 100%;
+  height: 92px;
+  border-radius: 20px;
+  background-color: #7632d2;
+
+  margin: 114px auto 0;
+
+  font-family: Circe-Bold;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.service_details__content-item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 70px;
+
+  > div {
+    flex: 1;
+  }
+}
+
+.service_details__content-item.first {
+  margin-top: 50px;
+}
+
+.service_details__content-item .item_logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 26px;
+}
+
+.service_details__content-lgtitle {
+  font-family: Circe-Bold;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: 1px;
+  color: #3d5135;
+}
+
+.service_details__content-mdtitle {
+  font-family: Circe-Regular;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212a1d;
+
+  padding-top: 20px;
+}
+
+.service_nav .navigate_item_image {
+  width: unset !important;
+  height: unset !important;
+  background: none !important;
+}
+
+.service_nav .navigate_item.left {
+  align-items: flex-start;
+}
+
+.service_nav .detail_title {
+  color: #8a9f80 !important;
+}
+
+.temp {
+  height: 1000px;
+}
+
+@media (max-width: 992px) {
+  .service_detail_menu .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .service_detail_menu__lgtitle {
+    margin-left: 20px;
+    font-size: 34px;
+  }
+
+  .service_detail_img {
+    display: none;
+  }
+
+  .service_details__header-lgtitle {
+    justify-content: center;
+    margin-top: 58px;
+  }
+
+  .service_details__header-lgtitle .title {
+    font-size: 64px;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .service_detail_menu__mdtitle {
+    text-align: center;
+    font-size: 46px;
+    padding-top: 27px;
+  }
+
+  .service_detail_menu__smtitle {
+    text-align: center;
+    padding: 34px 70px 60px;
+    line-height: 1.7;
+    font-size: 28px;
+  }
+
+  .service_details__content {
+    padding-top: 25px;
+  }
+
+  .service_details__content-item .item_logo {
+    position: absolute;
+    transform: scale(1.15);
+    border-radius: 17px;
+  }
+
+  .service_details__content-item {
+    padding: 0 8px;
+  }
+
+  .service_details__content-lgtitle {
+    margin-left: 100px;
+    font-size: 42px;
+  }
+
+  .service_details__content-mdtitle {
+    padding-top: 30px;
+    font-size: 36px;
+    line-height: 1.45;
+  }
+
+  .service_detail-signup {
+    max-width: unset;
+    width: 91%;
+    margin: 70px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: unset;
+    padding: 67px 45px 40px;
+  }
+
+  .service_detail-signup > img {
+    width: 130px;
+    margin: 0 3%;
+  }
+
+  .service_detail-signup > .label {
+    width: calc(94% - 130px);
+    text-align: left;
+    position: relative;
+    left: 18px;
+    top: -10px;
+    margin-top: 0;
+  }
+
+  .service_detail-signup > .btn_signup {
+    max-width: unset;
+    width: 96%;
+    margin-top: 45px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service_details__header-lgtitle {
+    margin-top: 47px;
+    flex-direction: column;
+  }
+
+  .service_details__header-lgtitle .title {
+    text-align: center;
+    padding-left: 0;
+    font-size: 60px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 41px;
+    padding-top: 29px;
+  }
+
+  .service_detail_menu__smtitle {
+    padding: 35px 0px 50px;
+    font-size: 28px;
+  }
+
+  .service_details__content-item .item_logo {
+    left: 30px;
+  }
+
+  .service_details__content-lgtitle {
+    margin-left: 105px;
+    padding-right: 20px;
+    line-height: 1.45;
+  }
+
+  .service_details__content-mdtitle {
+    padding-top: 22px;
+    font-size: 28px;
+    line-height: 1.72;
+  }
+
+  .service_details__content {
+    margin-top: 8px;
+  }
+
+  .service_details__content-item {
+    margin-top: 80px;
+  }
+
+  .service_detail-signup {
+    width: 97%;
+    padding-bottom: 30px;
+  }
+
+  .service_detail-signup {
+    padding: 50px 40px 40px;
+  }
+
+  .service_detail-signup > img {
+    width: 100px;
+    margin: 0;
+  }
+
+  .service_detail-signup > .label {
+    width: calc(100% - 140px);
+    left: 40px;
+    top: -3px;
+    font-size: 28px;
+    line-height: 1.75;
+  }
+
+  .service_detail-signup > .btn_signup {
+    max-width: unset;
+    width: 100%;
+    margin-top: 23px;
+    font-size: 29px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 630px) {
+  .service_nav .navigate_item.left {
+    align-items: center;
+  }
+
+  .service_details__header-lgtitle .title {
+    font-size: 57px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 32px;
+    margin-left: 15px;
+  }
+
+  .prod_detail_back {
+    width: 20px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 39px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 27px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 80px;
+    margin: 0;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 39px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 27px;
+    padding-top: 0;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service_details__content-lgtitle {
+    padding: 0;
+  }
+
+  .service_detail-signup {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    padding: 20px 10px;
+  }
+
+  .service_detail-signup > .label {
+    position: unset;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service_details__header-lgtitle .title {
+    font-size: 52px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .prod_detail_back {
+    width: 18px;
+    margin-bottom: 6px;
+    margin-right: 8px;
+  }
+
+  .service_detail_menu .container{
+    margin-top: 20px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 36px;
+    padding-top: 15px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 26px;
+    padding: 0 0 20px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 75px;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 35px;
+    margin-left: 100px;
+  }
+
+  .service_details__content .container {
+    padding: 0 5px;
+  }
+
+  .service_details__content-item {
+    margin-top: 40px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 26px;
+  }
+
+  .service_details__content-item.first {
+    margin-top: 30px;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 26px;
+  }
+
+  .service_detail-signup > .btn_signup {
+    font-size: 28px;
+    height: unset;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .service_details__header-lgtitle .title {
+    font-size: 48px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+
+  .prod_detail_back {
+    width: 16px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 33px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 23px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 65px;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 32px;
+    margin-left: 90px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 24px;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 24px;
+  }
+
+  .service_detail-signup > .btn_signup {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  .service_details__header-lgtitle .title {
+    font-size: 44px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 26px;
+    margin-left: 0;
+  }
+
+  .prod_detail_back {
+    width: 14px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 30px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 22px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 50px;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 29px;
+    margin-left: 80px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 23px;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 23px;
+  }
+
+  .service_detail-signup > .btn_signup {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 370px) {
+  .service_details__header-lgtitle .title {
+    font-size: 39px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 24px;
+  }
+
+  .prod_detail_back {
+    width: 12px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 26px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 21px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 40px;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 27px;
+    margin-left: 70px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 22px;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 21px;
+  }
+
+  .service_detail-signup > .btn_signup {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .service_details__header-lgtitle .title {
+    font-size: 37px;
+  }
+
+  .service_detail_menu__lgtitle {
+    font-size: 22px;
+  }
+
+  .prod_detail_back {
+    width: 10px;
+    margin-right: 0px;
+  }
+
+  .service_detail_menu__mdtitle {
+    font-size: 24px;
+  }
+
+  .service_detail_menu__smtitle {
+    font-size: 20px;
+  }
+
+  .service_details__content-item .item_logo {
+    width: 30px;
+  }
+
+  .service_details__content-lgtitle {
+    font-size: 25px;
+    margin-left: 60px;
+  }
+
+  .service_details__content-mdtitle {
+    font-size: 20px;
+  }
+
+  .service_detail-signup > .label {
+    font-size: 20px;
+  }
+
+  .service_detail-signup > .btn_signup {
+    font-size: 20px;
+  }
+}

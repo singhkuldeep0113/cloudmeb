@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon — Bookkeeping</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="68" height="15"></rect>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-D-XL-2.-—-Product" transform="translate(-180.000000, -2579.000000)">
+            <g id="Related" transform="translate(100.000000, 2537.000000)">
+                <g id="Row-2">
+                    <g id="Prev">
+                        <g id="Content">
+                            <g id="Atoms/Icons/Services/Payroll" transform="translate(80.000000, 42.000000)">
+                                <g id="Icon">
+                                    <circle id="Oval" fill="#E6EEDC" cx="50" cy="50" r="50"></circle>
+                                    <g transform="translate(16.000000, 25.000000)">
+                                        <path d="M62,11 L6,11 C4.8954305,11 3.8954305,11.4477153 3.17157288,12.1715729 C2.44771525,12.8954305 2,13.8954305 2,15 L2,45 C2,46.1045695 2.44771525,47.1045695 3.17157288,47.8284271 C3.8954305,48.5522847 4.8954305,49 6,49 L62,49 C63.1045695,49 64.1045695,48.5522847 64.8284271,47.8284271 C65.5522847,47.1045695 66,46.1045695 66,45 L66,15 C66,13.8954305 65.5522847,12.8954305 64.8284271,12.1715729 C64.1045695,11.4477153 63.1045695,11 62,11 Z" id="Rectangle" stroke="#3D5135" stroke-width="4"></path>
+                                        <circle id="Oval" stroke="#3D5135" stroke-width="2" opacity="0.400000006" cx="34" cy="30" r="11"></circle>
+                                        <g id="Group" transform="translate(8.000000, 23.500000)" opacity="0.400000006" stroke="#3D5135" stroke-linecap="square" stroke-width="2">
+                                            <line x1="-7.81597009e-14" y1="0.5" x2="8" y2="0.5" id="Line"></line>
+                                            <line x1="-7.81597009e-14" y1="6.5" x2="8" y2="6.5" id="Line"></line>
+                                            <line x1="-7.81597009e-14" y1="12.5" x2="8" y2="12.5" id="Line"></line>
+                                        </g>
+                                        <g id="Group" transform="translate(52.000000, 23.500000)" opacity="0.400000006" stroke="#3D5135" stroke-linecap="square" stroke-width="2">
+                                            <line x1="-7.81597009e-14" y1="0.5" x2="8" y2="0.5" id="Line"></line>
+                                            <line x1="-7.81597009e-14" y1="6.5" x2="8" y2="6.5" id="Line"></line>
+                                            <line x1="-7.81597009e-14" y1="12.5" x2="8" y2="12.5" id="Line"></line>
+                                        </g>
+                                        <g id="Rectangle">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <path d="M62,2 L6,2 C4.8954305,2 3.8954305,2.44771525 3.17157288,3.17157288 C2.44771525,3.8954305 2,4.8954305 2,6 L2,36 C2,37.1045695 2.44771525,38.1045695 3.17157288,38.8284271 C3.8954305,39.5522847 4.8954305,40 6,40 L62,40 C63.1045695,40 64.1045695,39.5522847 64.8284271,38.8284271 C65.5522847,38.1045695 66,37.1045695 66,36 L66,6 C66,4.8954305 65.5522847,3.8954305 64.8284271,3.17157288 C64.1045695,2.44771525 63.1045695,2 62,2 Z" stroke="#3D5135" stroke-width="4" opacity="0.400000006" mask="url(#mask-2)"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

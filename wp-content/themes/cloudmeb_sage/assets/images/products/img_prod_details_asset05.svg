@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Products-D-XL-2.-—-Product" transform="translate(-100.000000, -1205.000000)">
+            <g id="Text" transform="translate(100.000000, 527.000000)">
+                <g id="3" transform="translate(0.000000, 678.000000)">
+                    <g id="Icon">
+                        <rect id="Background" fill="#415C85" x="0" y="0" width="64" height="64" rx="10"></rect>
+                        <rect id="Rectangle" stroke="#EAF9FA" stroke-width="4" x="20" y="14" width="24" height="36" rx="6"></rect>
+                        <circle id="Oval" stroke="#EAF9FA" stroke-width="2" opacity="0.400000006" cx="32" cy="41" r="3"></circle>
+                        <line x1="19" y1="34" x2="45" y2="34" id="Line" stroke="#EAF9FA" stroke-width="2" opacity="0.400000006" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

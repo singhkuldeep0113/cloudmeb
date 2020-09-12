@@ -1,0 +1,47 @@
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: unset;
+}
+
+.full-section {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mainWrapper {
+  padding-top: 76px;
+  @media (max-width: 992px) {
+    padding-top: 0;
+  }
+}
+
+@import "home/intro";
+@import "home/company";
+@import "home/community";
+@import "home/knowledge";
+@import "home/support";
+@import "home/platform";
+@import "home/workflow";
+@import "home/clients";
+@import "home/tiny-slider";
+@import "products/products";
+@import "products/products_details";
+@import "services/services";
+@import "services/services_details";
+@import "education/edu_menu";
+@import "education/edu_tags";
+@import "education/edu_details";
+@import "education/edu_menu";
+@import "education/edu_overview";
+@import "education/edu_category";
+@import "partners/partners";
+@import "terms/terms";
+@import "navigation";

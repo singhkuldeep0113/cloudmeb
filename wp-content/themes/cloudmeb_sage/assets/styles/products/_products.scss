@@ -1,0 +1,402 @@
+.cloud_products {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cloud_products .container {
+  max-width: 1740px;
+}
+
+.products__lgtitle {
+  font-family: Circe-Regular;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #415c85;
+
+  padding-top: 40px;
+}
+
+.products__mdtitle {
+  font-family: Circe-Regular;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5e7599;
+
+  padding-top: 10px;
+}
+
+.products__content {
+  margin-bottom: 50px;
+}
+
+.products__content .products__content-Wrapper {
+  display: block;
+  max-width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.products__item {
+  width: 100%;
+  height: 262px;
+  border-radius: 15px;
+  background-color: rgba(246, 248, 254, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.products__item .status {
+  position: absolute;
+  top: 22px;
+  left: -36px;
+  width: 158.4px;
+  height: 40px;
+  background-color: #5e7599;
+
+  font-family: Circe-Bold;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: rotate(-45deg);
+}
+
+.products__item .status.small {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.products__item img {
+  max-width: 100%;
+}
+
+.products__item__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+}
+
+.products__item__lgtitle {
+  font-family: Circe-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #181e26;
+}
+
+.products__content .products__content-Wrapper:hover .products__item__lgtitle {
+  color: #5e7599;
+}
+
+.products__item__tag {
+  border-radius: 6px;
+
+  font-family: Circe-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #d19589;
+
+  padding: 7px 10px 2px;
+
+  &.e-commerce {
+    color: #659ea9;
+    background-color: #e5f5f9;
+  }
+
+  &.pos {
+    color: #7fa47b;
+    background-color: #f6fff5;
+  }
+
+  &.accounting {
+    color: #8d6dc7;
+    background-color: #ede2ff;
+  }
+
+  &.expenses {
+    color: #996999;
+    background-color: #fbebfb;
+  }
+
+  &.payroll {
+    color: #ac8577;
+    background-color: #f8f4f2;
+  }
+
+  &.reporting {
+    color: #b0aa56;
+    background-color: #f6f4da;
+  }
+
+  &.approval {
+    color: #5b9677;
+    background-color: #dfede6;
+  }
+
+  &.online_communication {
+    color: #d19589;
+    background-color: #f7eeec;
+  }
+}
+
+.products__item__tag.pink {
+  background-color: #fbebfb;
+  color: #996999;
+}
+
+.products__item__tag.brown {
+  background-color: #f7eeec;
+  color: #d19589;
+}
+
+.products__item__tag.green {
+  background-color: #e5f5f9;
+  color: #659ea9;
+}
+
+.products__item__tag.yellow {
+  background-color: #f6f4da;
+  color: #b0aa56;
+}
+
+.products__item__tag.white {
+  background-color: #f8f4f2;
+  color: #ac8577;
+}
+
+.products__item__tag.grey {
+  background-color: #dfede6;
+  color: #5b9677;
+}
+
+.products__item__mdtitle {
+  font-family: Circe-Regular;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #415c85;
+
+  padding-top: 14px;
+}
+
+.products__item__smtitle {
+  font-family: Circe-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #181e26;
+
+  padding-top: 10px;
+}
+
+.temp {
+  height: 200px;
+}
+
+@media (max-width: 992px) {
+  .products__content .products__content-Wrapper {
+    max-width: unset;
+  }
+
+  .products__lgtitle {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 850px) {
+  .products__lgtitle {
+    font-size: 67px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products__lgtitle {
+    font-size: 60px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 630px) {
+  .products__lgtitle {
+    font-size: 57px;
+  }
+
+  .products__mdtitle {
+    font-size: 34px;
+  }
+
+  .products__item {
+    height: 240px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .products {
+    padding: 0;
+  }
+
+  .products__lgtitle {
+    font-size: 54px;
+    padding-top: 20px;
+  }
+
+  .products__mdtitle {
+    font-size: 32px;
+  }
+
+  .products__item {
+    height: 220px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 26px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products__lgtitle {
+    font-size: 51px;
+  }
+
+  .products__mdtitle {
+    font-size: 30px;
+  }
+
+  .products__item {
+    height: 200px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 24px;
+  }
+
+  .products__item__smtitle {
+    font-size: 18px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  .products__lgtitle {
+    font-size: 48px;
+  }
+
+  .products__mdtitle {
+    font-size: 28px;
+  }
+
+  .products__item {
+    height: 180px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 22px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 370px) {
+  .products__lgtitle {
+    font-size: 45px;
+  }
+
+  .products__mdtitle {
+    font-size: 26px;
+  }
+
+  .products__item {
+    height: 160px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 20px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .products__lgtitle {
+    font-size: 41px;
+  }
+
+  .products__item {
+    height: 140px;
+  }
+
+  .products__item__mdtitle {
+    font-size: 18px;
+  }
+
+  .products__item__smtitle {
+    font-size: 17px;
+  }
+
+  .products__item__lgtitle {
+    font-size: 20px;
+  }
+}

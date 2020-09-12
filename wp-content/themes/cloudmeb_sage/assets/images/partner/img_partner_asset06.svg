@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners-D-XL" transform="translate(-876.000000, -1672.000000)">
+            <g id="Offer" transform="translate(100.000000, 1462.000000)">
+                <g id="3" transform="translate(776.000000, 210.000000)">
+                    <g id="Icon">
+                        <rect id="Background" fill="#EAF9FA" opacity="0.400000006" x="0" y="0" width="64" height="64" rx="10"></rect>
+                        <path d="M34.516129,9 C41.6414906,9 47.4697891,14.1729269 47.908918,20.7070229 C48.1925777,20.6801819 48.4817971,20.6666667 48.7741935,20.6666667 C53.8694658,20.6666667 58,24.7707231 58,29.8333333 C58,34.8959435 53.8694658,39 48.7741935,39 C48.4913503,39 48.2114799,38.9873535 47.9351238,38.9625986 L47.9354839,39 L12.7096774,39 L12.7090874,38.9541612 C8.93521946,38.5393577 6,35.3602602 6,31.5 C6,27.6250659 8.95757701,24.4364829 12.7521601,24.0412284 C13.1491409,20.2718008 16.3582308,17.3333333 20.2580645,17.3333333 C20.7874434,17.3333333 21.3040944,17.3874788 21.8027138,17.4905 C23.5953148,12.5538849 28.6101702,9 34.516129,9 Z" fill="#415C85"></path>
+                        <g id="Arrow" transform="translate(17.833333, 22.500000)" stroke="#EAF9FA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M28.1666667,12 C28.1666667,5.372583 22.7940837,0 16.1666667,0 C9.53924967,0 4.16666667,5.372583 4.16666667,12" id="Path"></path>
+                            <polyline id="Path-3" points="9.43878042 10 3.66666667 13 -3.41841658e-13 8.33333333"></polyline>
+                        </g>
+                        <g id="Arrow" transform="translate(32.333333, 49.000000) scale(-1, -1) translate(-32.333333, -49.000000) translate(17.833333, 42.500000)" opacity="0.900000036" stroke="#415C85" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M28.1666667,12 C28.1666667,5.372583 22.7940837,0 16.1666667,0 C9.53924967,0 4.16666667,5.372583 4.16666667,12" id="Path"></path>
+                            <polyline id="Path-3" points="9.43878042 10 3.66666667 13 -3.41841658e-13 8.33333333"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
